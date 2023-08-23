@@ -1,10 +1,12 @@
 html, body {
   height: 100%;
   overflow: hidden;
+  font-family: 'Titillium Web', sans-serif;
 }
 
 .App {
   display: flex;
+  flex-direction: column;  /* Add this */
   justify-content: center;
   align-items: center;
   height: 100vh;
@@ -12,7 +14,5 @@ html, body {
     margin: 0;
     padding: 0;
     box-sizing: border-box; 
-    
-}
-
+  }
 }

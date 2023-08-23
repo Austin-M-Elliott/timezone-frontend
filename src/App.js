@@ -6,6 +6,7 @@ function App() {
     
     return (
         <div className="App">
+            <h1 className="app-title">f1oclock</h1>
             <MapComponent />  {/* Use the component */}
         </div>
     );
